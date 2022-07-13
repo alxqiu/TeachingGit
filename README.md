@@ -20,9 +20,6 @@ Key Terms:
 ======================
 Retrieving code from a git repository, and updating it with changes on your local machine..
 
-Updating your own local repository with changes from the remote.
-
-
 
 Part 0 - Prerequisites
 ---------
@@ -44,17 +41,20 @@ This will copy the files over to your local machine.
 on your local machine, edit hello.py with any text, whether it be comments or code
 
 then, type
+
     git add hello.py
 this will track the changes to hello.py
 
 then:
+
     git commit -m "where normal descriptions go"
 
 commits require a message, and the above text behind -m tells other people and yourself what your commit does
 
 then type:
+
     git push origin main
 	
-this will push the changes to the remote, directly to the main branch
-
+this will push the changes to the remote, directly to the main branch, so you can open github and observe
+the new changes
 
