@@ -24,7 +24,7 @@ Updating your own local repository with changes from the remote.
 
 
 
-Part 0
+Part 0 - Prerequisites
 ---------
 Install Git for your machine – https://github.com/git-guides/install-git 
 
@@ -35,5 +35,26 @@ Be familiar with the command line, at least for changing directories:
 
 Then, navigate to a directory where you can put the project code in using command line/shell
 
-Part 1:
+Part 1 - Cloning from a repository, and committing and pushing changes
 ---------
+Once in the directory you want to copy the TeachingGit repo in, type:
+	git clone https://github.com/alxqiu/TeachingGit.git
+This will copy the files over to your local machine. 
+
+on your local machine, edit hello.py with any text, whether it be comments or code
+
+then, type
+	git add hello.py
+this will track the changes to hello.py
+
+then:
+	git commit -m "where normal descriptions go"
+
+commits require a message, and the above text behind -m tells other people and yourself what your commit does
+
+then type:
+	git push origin main
+	
+this will push the changes to the remote, directly to the main branch
+
+
