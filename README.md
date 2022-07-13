@@ -7,14 +7,14 @@ Key Terms:
 	clone – copy a repository’s files into a directory on your own machine
 	remote – a repository that exists on the internet, for example on Github
 	origin – a remote that a project was originally cloned from
-  branch – a series of changes, multiple branches of the same repository can exist at once
+  	branch – a series of changes, multiple branches of the same repository can exist at once
 	main – (aka master) the original or most unified branch in the repository
 	fetch – track changes to the remote that don’t exist on local repository
 	pull – retrieve changes from a branch and copy onto local repository
 	add – track changes to a file on your local machine
-  commit – set up a series of changes on the added files without sending them to the remote, consider each commit as a potential “update”
+  	commit – set up a series of changes on the added files without sending them to the remote, consider each commit as a potential “update”
 	push – submit the most recent commit to the remote, updating the files
-  gitignore – a manifest of the files that git should not track, like those with sensitive information
+  	gitignore – a manifest of the files that git should not track, like those with sensitive information
 
 7/13 - Today’s Topics:
 ======================
