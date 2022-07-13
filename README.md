@@ -59,3 +59,5 @@ then type:
 this will push the changes to the remote, directly to the main branch, so you can open github and observe
 the new changes
 
+If you run into the issue with password authentication no longer being supported, follow [this](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
