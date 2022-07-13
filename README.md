@@ -35,10 +35,11 @@ Then, navigate to a directory where you can put the project code in using comman
 Part 1 - Cloning from a repository, and committing and pushing changes
 ---------
 Once in the directory you want to copy the TeachingGit repo in, type:
-	git clone https://github.com/alxqiu/TeachingGit.git
+	
+    git clone https://github.com/alxqiu/TeachingGit.git
 This will copy the files over to your local machine. 
 
-on your local machine, edit hello.py with any text, whether it be comments or code
+On your local machine, navigate to the freshly created TeachingGit folder using "cd TeachingGit" and edit hello.py with any text, whether it be comments or code
 
 then, type
 
